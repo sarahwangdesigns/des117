@@ -1,0 +1,59 @@
+	* {
+		margin: 0;
+		padding: 0;
+		}
+	
+	body {
+		width: 481px;
+		height: 1100px;
+		text-align: center;
+		background-image: url('../../images/imagesfinal/bg.gif');
+    	}
+    
+	#rd {
+		position: relative;
+		font-family: 'Arvo', serif;
+		text-align: center;
+		color: white;
+		font-size: 48px;
+		padding-top: 75px;
+		}
+		
+	#amclogo {
+		background-color: white;
+		width: 500px;
+		padding: 5px 0px 12px 0px;
+		opacity: 0.5;
+		margin: auto;
+    	}
+    	
+     #stars {
+    	position: absolute;
+		display: inline;
+		top: 800px;
+		left: 85px;
+		}
+    	
+    #rdimg {
+    	position: relative;
+    	bottom: 50px;
+    	}
+    	
+    #rdfacts {
+    	position: relative;
+		font-family: 'Arvo', serif;
+		text-align: left;
+		border-radius: 25px;
+    	background: white;
+    	padding: 20px; 
+    	width: 210px;
+    	height: 250px; 
+		color: black;
+		width: 300px;
+		opacity: 0.5;
+		margin: 25px 0px 25px 0px;
+		padding: 25px 25px 25px 25px;
+		bottom: 100px;
+		left: 70px;
+    	}
+    	

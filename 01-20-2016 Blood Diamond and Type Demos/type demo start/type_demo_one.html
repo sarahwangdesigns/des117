@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<title>Typography With CSS</title>
+<style>
+
+	body {
+		font-family: verdana, geneva, sans-serif;
+	}
+	
+	h1{
+		color: #f1cdc9;
+	}
+	
+	h3{
+		font-family: Arial;
+		color: black;
+		font-size: 15px;
+		text-indent: 50px;
+	}
+
+	p {
+		color: #c4edea;
+		line-height: 150%;
+	}
+
+	section {
+		width: 600px;
+		margin-left: 20px;
+		border-left: 1px solid #b7d6dd;
+		padding-left: 20px;
+	}
+	
+	.teal_type {
+		color: teal;
+	}
+	
+	#funny {
+		font-family: times;
+		color: blue;
+	}
+	
+</style>
+
+
+</head>
+
+<body>
+
+
+
+	<h1 style="font-family: Times;"> I Love Web Typography! </h1>
+
+	<p> CSS is the abbreviation for Cascading Style Sheets. A style sheet simply holds a collection of rules that we define to enable us to manipulate the look of our web pages. CSS can be applied to our pages as inline styles, embedded styles and external style sheets. The most powerful way to employ CSS rules is from an external cascading style sheet. When used in this manner the full power of CSS can control the design and appearance of our work from a single controlling location.  This makes it easy to update our site on a global basis.</p>
+
+<section>
+
+	<h3>What's The Syntax for CSS?</h3>
+
+	<p class="teal_type">Although we have already been writing some simple styles, our goal is to use them for all presentation in our web pages. CSS rules are written in a foremat that's called its syntax. The selector the element or &quot;tag&quot; that the style applies to and the declaration identifies the desired styling. The declaration itself has two parts; the property and value.</p>
+
+	<h3>Creating a CSS Rule</h3>
+
+	<p id=funny> What is a CSS rule? A CSS rule is simply a statement that consists of a selector and a declaration. Let's look at this a little more closely. We'll begin by looking at the h1 tag. The default size of an h1 tag is quite large. With our CSS rule we'll change the tag to make it take on a totally different appearance. This is known as &quot;redefining&quot; the tag. The great advantage in redefining tags is that you maintain the structure of your document. This is important as not everyone uses a visual browser. Think of the visually impaired - the browser that they use will need to read your document and the h1 tag will let it know the value of the text it is reading, but that's for much later!</p>
+
+	<h3>One More Thing</h3>
+
+	<p>If you've been reading the book and tutorial you may have seen the term &quot;class&quot;. A class is a predefined css style that can be applied many times within a page. For example, we can write a class named highlight and give it declaration of color: yellow;. We can then place the class name highlight in the html tags wherever we want the highlighting. This is especially powerful when you want to make a consistent style across many pages. All this information should help you with the resume exercise! Have Fun!</p>
+
+</section>
+
+</body>
+
+</html>
+
+<!--Inline Styles. This rule applies an inline style to a p tag <p style="color: teal; font-size: 14px;"></style>
+
+This rule will apply an inline style to a specific word inside a tag <span style="font-weight: bold;"></span> 
+
+Note: Hierarchy of styles is very important.  A subsequent embedded style for the <p> tag will not overide the inline style.  Closest style to the element will define its looks, so inline styles have the highest priority.
+
+Embeded styles live in the head tag they are surrounded by the following code:
+<style type>
+
+</style>
+
+the syntax for an embedded style is 
+
+p {
+	font-family: verdana; color: red; font-size: 24px;
+}	
+
+the syntax for and embedded class named highlight is
+
+.highlight  {
+	color: yellow;
+	}
+	
+so you want to add a rule or an interesting border style to your page. you can do this by creating a class that specifies the look you want 
+
+.dotted_rule  { 
+ 	border-bottom-width: medium;
+	border-bottom-style: dotted;
+	border-bottom-color: #000
+	
+	Font options:
+	Image for font-sometimes an image is the best and most reliable option but
+	not as accessable (use alt) and do not use for body copy.
+	Built-in fonts-limited styles but very reliable, use alt fonts for degredation
+	Link to font services like Google fonts-slower loading, must be online to view
+	@font-face-you upload fonts to use on your server space and link to them with css 				      (limited font styles but growing)
+	
+	
+	Try Google fonts!?
+	http://www.google.com/webfonts
+	Just pick a font and follow the instructions. You will add a style in the head tag and an embedded or inline rule that specifies where you want place that font. Have fun!
+	
+	@fontface is a new css5 rule that allows us to use fonts that we upload to the server.
+	
+	@font-face {
+	font-family: FontName;
+	src: url(fonts/FontName.otf);
+	font-weight:normal;
+	}
+	
+	You will have to specifiy the font as a style in your css code for example:
+	h1 {font-family: "fonts/FontName", verdana, san-serif;
+	}
+	-->

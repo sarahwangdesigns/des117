@@ -1,0 +1,66 @@
+	* {
+		margin: 0;
+		padding: 0;
+		}
+	
+	body {
+		width: 1200px;
+		height: 1000px;
+		text-align: center;
+		background-image: url('images/bg.gif');
+		background-size: cover;
+   		background-repeat: no-repeat;
+    	}
+    	
+    #joebanner {
+    	position: absolute;
+    	top: 80px;
+    	left: 175px;
+    	}
+    	
+	
+	#nav {
+		position: absolute;
+		top: 300px;
+		left: 50px;
+		width: 1000px;
+		}
+		
+		
+	#nav li {
+		list-style-type: none;
+		width: 135px;
+		height: 25px;
+		background-color: #f8f8f6;
+		font-size: 14px;
+		margin-left: 20px;
+		margin-right: 20px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		float: left;
+		text-align: center;
+		}
+
+	body {
+		color: black;
+		font-family: century gothic;
+		font-size: 14px;
+		letter-spacing: 2px;
+		}
+	
+	a:link {
+		font-family: verdana;
+		font-size: 20px;
+		color: black;
+		text-decoration: none;
+		}
+	
+	hover a:link {
+		color: #5c6779;
+		}
+	
+	a:visited {
+		color: #5c6779;
+		}
+		
+	

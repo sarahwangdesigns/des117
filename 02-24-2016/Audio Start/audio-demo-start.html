@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	
+<title>Audio Demo</title>
+
+<style>
+
+body { background: url(house_of_cards.jpg) no-repeat;
+background-size: 100%;
+}
+
+
+</style>
+
+</head>
+
+<body>
+<header>
+<h1>HTML5 Audio</h1>
+		
+<!--place our audio demo code here-->
+
+<audio controls>
+				<source src=dog_bark1.mp3></source>
+				<source src=dog_bark1.ogg></source>
+				Your browser isn't invited for a super fun time.
+			</audio>
+			
+<!--<audio autoplay>
+				<source src=dog_bark1.mp3></source>
+				<source src=dog_bark1.ogg></source>
+				Your browser isn't invited for a super fun time.
+			</audio>-->
+			
+<!--<audio autoplay loop>
+				<source src=dog_bark1.mp3></source>
+				<source src=dog_bark1.ogg></source>
+				Your browser isn't invited for a super fun time.
+			</audio>-->			
+
+<audio controls>
+     <source src=cards.mp3>
+     <source src=cards.ogg>  note:We'll try to create this ogg file in Audacity.
+     HTML5 audio not supported
+</audio>
+
+<audio controls>
+     <source src=rain02.mp3>
+     <source src=rain02.ogg>
+     HTML5 audio not supported
+</audio>
+    
+</body>    
+</html>
+
+<!--First....we've discussed responsive design for a variety of displays. Here's the CSS3 code that let's you set an auto-scale a background image: Give it a try....does it fit your browser?
+
+body { background: url(house_of_cards.jpg) no-repeat;
+background-size: 100%;
+}
+
+Audio
+The HTML5 Audio Tag has the option for displaying the controller and setting an autostart as well as looping feature. Any text you insert at the bottom will be shown if your client's browser or device does not support the formats you've provided. The audio files have to be uploaded onto the server. Let's try placing this onto the page. Try modifying with the control autoplay and loop options. Start first by placing this basic audio code for the sound effect of a dog bark:
+
+  	<audio controls>
+				<source src=dog_bark1.mp3></source>
+				<source src=dog_bark1.ogg></source>
+				Your browser isn't invited for a super fun time.
+			</audio>
+			
+			
+Now we'll add a longer audio file that will autoplay when the page opens:
+
+<audio autoplay loop>
+     <source src=cards.mp3>
+     <source src=cards.ogg>  note:We'll try to create this ogg file in Audacity.
+     HTML5 audio not supported
+</audio>
+
+Here's how you add controls: What works best for you?
+
+<audio controls>
+     <source src=cards.mp3>
+     <source src=cards.ogg>
+     HTML5 audio not supported
+</audio>
+    
+-->

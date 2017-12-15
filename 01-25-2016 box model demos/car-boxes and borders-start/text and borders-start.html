@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang=en>
+<head>
+
+<meta charset=UTF-8>
+
+
+<title>Love The Box Model</title>
+
+<style>
+
+	* {
+		margin:0;
+		padding: 0;
+		}
+		
+	main {
+		background-image: url(volkswagen_w12.jpg);
+		width: 1200px;
+		height: 900px;
+	}
+	
+	main {
+		position: relative;
+		width: 1200px;
+		height: 900px;
+		margin: auto;
+		}
+	
+	body {
+		color: white;
+		font-family: verdana;
+		background-color: #1a1f23;
+	}
+
+	#box1 {
+		position: absolute;
+		top: 250px;
+		left: 100px;
+		width: 400px;
+		height: 200px;
+		border-right: solid;
+		border-top: solid;
+		padding: 10px;
+		}
+		
+	#w12 {
+		text-align: right;
+	}
+	
+	#box2 {
+		position: absolute;
+		top: 520px;
+		left: 550px;
+		width: 400px;
+		height: 300px;
+		border-right: solid;
+		border-bottom: solid;
+	}
+	
+	#midengine {
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+		text-align: right;
+		
+	}
+	
+	h1 {
+		font-size: 100px;
+		text-align: center;
+	}
+
+</style>
+
+</head>
+
+<body>
+<main>
+
+<h1>W12 Syncro Coupe</h1>
+
+<article id= box1>
+
+<p id= w12>In 1997, at the Tokyo Motor Show, Volkswagen debuted their first sports car concept, a bright red W12 Syncro (also known as the W12 Syncro Coupé) with a 5.6-litre W12 engine producing 309 kilowatts (420 PS; 414 bhp) with Syncro four-wheel drive.</p> 
+
+</article>
+
+<article id= box2>
+
+<p id= midengine>At the request of then Volkswagen Group CEO Ferdinand Piech, Giorgetto Giugiaro and his Italdesign team was tasked to design a Volkswagen sports car, with instructions that it had to accommodate a 12-cylinder engine in a W configuration, be mid-engined, and also be able to be configured with Volkswagen's Syncro four-wheel drive system.</p>
+
+</article>
+
+</main>
+
+</body>
+
+</html>
+
+<!-- This simple demonstration will help you understand the box model and how to use it in creative ways. 
+
+You're starting with two descriptions which we will style, surround with a second container and modify with specifically designed borders.
+Notice the use of the <main> tag. This is a new html5 selector used to identify the main content of a page.
+
+First add id's to define the "box" for each article and p tag within the article.
+
+<article id=box1>  and inside is <p id=w12>
+<article id=box2>  and inside is <p id=midengine>
+
+Set golbal body charateristics
+
+Now add the background image to the main element.
+
+Style articles and contianed p tags to point to the specific components.
+
+	-->

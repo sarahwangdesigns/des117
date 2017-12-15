@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang=en>
+<meta charset=UTF-8>
+<title>The Big Bad Box Model</title>
+
+
+<style>
+
+	main {
+		width: 1000px;
+		margin: auto;
+		}
+	
+	body {
+		background-image: url(images/corrugated.jpg);
+		background-repeat: repeat-y;
+		}
+	
+	header {
+		width: auto;
+		height: 150px;
+		background-image: url(images/box.gif);
+		background-repeat: no-repeat;
+		background-position: 20px;
+		}
+
+	h3 {
+		font-size: 60px;
+		margin-left: 150px;
+		padding-top: 50px;
+		}
+
+	li {
+		list-style-type: none;
+		display: inline;
+		padding-right: 20px;
+		}
+	
+	nav {
+		text-align: center;
+		}
+		
+	section {
+		margin-left: 150px;
+		}
+		
+	figure {
+		text-align: center;
+		}
+
+	figure img {
+		border: 2px dashed teal;
+		padding: 10px;
+		}
+	
+	#transparent {
+		background: rgba(30,200,200,.5);
+		padding: 10px;
+		width: 700px;
+		}
+	#rounded {
+		background: orange;
+		padding: 20px;
+		border-radius: 15px;
+		width: 500px;
+		margin: 10px 0 0 50px;
+		}
+		
+	
+	
+	
+</style>
+
+</head>
+
+
+<body>
+
+<main>
+
+<header>
+
+<h3>The Box Model Rocks </h3>
+
+</header>
+
+
+
+
+
+<nav>
+
+	<ul>
+		<li>Box Model</li>
+		<li>Cardboard Boxes</li>
+		<li>Wood Boxes</li>
+		<li>Paper Boxes</li>
+	
+	</ul>
+
+
+</nav>
+
+
+
+<section>
+
+
+<h1 class=headline>Box Model Demo </h1>
+
+
+<p>The box model is a very important concept, one that you must have in mind
+  before you start tackling all this spacing stuff. All HTML block-level elements
+  have five spacing properties: height, width, margin, border and padding. When
+  discussing these attributes you'll need a diagram to see what part of the spacing
+  we're talking about. Have a look at the diagram below and check out the three
+  areas that surround every block-level page element. Together, they form the
+box that the element takes up.</p>
+
+<p>There are two types of elements in HTML: block-level/structural elements and inline/phrasing elements. Block-level or structural elements generally start
+  in a new line, have space above and below and by default occupy the full width of the page. something that doesn't apply to inline-level elements. You can remove the block level characteristics by adding the declaration-display:none; We demonstrated this with the li tag which is by definition a structural tag.</p>
+  
+<!-- insert box model image here with <figure> tag-->
+
+<figure><img src="images/boxmodelling.gif"></figure>
+
+
+
+<h2>The Box Model Attributes</h2>
+
+<p>Default margins, borders and padding are all 0, so when you wrap a div around
+   text, there is no space between its edges and the text. div elements obey
+  the box model strictly, while adding padding etc. to table cells can be interpreted
+  a bit more loosely by browsers. Default widths for all block-level elements
+are 100%. The height of an element relies entirely on its contents. The margins,
+  borders and padding you add to each element are then added on to these dimensions.
+</p>
+
+<h4>Margins</h4>
+<p>Margins are the invisible space outside of the borders in the box model. By
+default they are set to 0 (exept for the &lt;body&gt; tag which has built-in content margins. Margins can be added to anything &mdash; tables, graphics and text.  We can use margins to place content. Top, right, bottom and left margins can be applied equally or independently. Margins can even be applied negatively...hummm, I wonder what that would look like? </p>
+  
+<h4>Padding</h4>
+<p>Padding works pretty much the exact same way as margin, except it's inside any borders you've put in place. You use the same units and can affect each
+  side separately as before, but you can't use negative values for padding. Wouldn't
+  make any sense anyway. You can use a shorthand property for padding too, identical
+  to the one for margins.</p>
+
+<h4>Borders</h4>
+<p>Borders are styled lines, dots or dashes that surround the padding in the
+  box model. Like other box model attributes they can be applied uniformly or
+  independently to box content or set individual lines at bottom, top, left or
+  right of the content. </p>
+  
+<h2>Special Effects</h2>
+
+
+
+<article id= transparent>
+
+<h4>Transparent Boxes</h4>
+<p>Transparence can be applied a couple ways. You can add an opacity property if you want everything in the container to be transparent. With CSS3 you can more specifically target the background color of the container and leave the contents, such as text, unchanged. Use the the following declaration-background: rgba(50,50,50,.5);</p>
+
+</article>
+
+
+<article id= rounded>
+
+<h4>Rounded Corners On Boxes</h4>
+<p>Boxes can be styled with rounded corners too. Browsers have been slow in adopting this attribute consistently. But now it looks very consistent in the most common browsers.</p>
+
+</article>
+
+
+</section>
+
+
+</main>
+
+
+</body>
+
+
+</html>
+
+<!-- The unordered list is a very powerful element that allows us to create galleries and a variety of navigation menus. On of the most common techniques is to convert an unordered list of terms into a horizontal navigaion bar.
+
+li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 10px;
+}
+ul {
+	text-align: center;
+	
+	If the elements are links such as the one below, we can style with css link, visited, hover and active rules. The # symbol will make the link act like a link. See example bleow
+	<ul>
+    <li><a href"#">Box Model</a></li>
+    <li><a href"#">Wood Boxes</a></li>
+    </ul>
+    a:link { font-family: verdana;
+	color: brown;
+	text-decoration: none;
+	}
+	a:visited {color: black;
+	}
+	a:hover {color: red;
+	text-decoration: underline;
+	}
+	
+With CSS3 we have some new effects such as transparency and rounded corners for boxes.
+	Transparency is controlled by the following declaration: background: 	rgbargba(30,200,220,.5); a is the transparency value which ranges from .1 to 1. 
+	
+	
+	Rounded corners are not fully supported by browsers. Add these declartions to your container and check in Chrome, Safari or Firefox. border-radius: 10px; -webkit-border-radius: 10px;
+	
+	
+	-->

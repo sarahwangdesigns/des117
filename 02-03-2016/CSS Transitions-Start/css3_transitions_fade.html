@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+
+<title>CSS3 Transitions</title>
+
+
+<style>
+
+	#fade {
+		position: relative;
+		}
+
+	figure img.top {
+		position: absolute;
+		left: 0;
+		opacity: 1;
+		transition: opacity 1s ease-in-out;
+		}
+	
+	#fade img.top:hover {
+		opacity: 0;
+		}
+	
+</style>
+
+
+</head>
+
+
+<body>
+<figure id=fade>
+
+<!--we'll start by placing the b/w and color images of the golden gate bridge here.-->
+
+<img class=top alt="blackwhite" src=golden_gate_bw.jpg>
+<img class=bottom alt="color" src=golden_gate_color.jpg>
+
+</figure>
+
+<p><a href=http://www.css3maker.com/css3-transition.html#> More CSS3 Transitions-Check this out!</a></p>
+</body>
+
+</html>
+
+
+

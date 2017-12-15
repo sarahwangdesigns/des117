@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+
+<html lang=en>
+<head>
+
+<meta charset=UTF-8>
+<link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+<title>Love Those Big Backgrounds</title>
+
+<!--#fcd20c, #61928c, #9e866c-->
+
+
+
+<style>
+
+	body {
+		height: 100%;
+		width:100%;
+		margin:0;
+		padding:0;
+		}
+	
+	#full-screen-background-image {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 0;
+		min-height: 100%;
+		min-width: 800px;
+		width: 100%;
+		height: auto;
+		}
+		
+	main {
+		position: relative;
+		width: 800px;
+		min-height: 400px;
+		margin: 50px auto;
+		}
+		
+	p {
+		font-family: Sigmar One;
+		font-weight: bold;
+		font-size: 72px;
+		color: #61928c;
+		}
+	
+</style>
+
+
+</head>
+
+
+<body>
+
+
+	<img src="background.jpg" alt="elephant on african plane" id=full-screen-background-image>
+  
+  <main>
+    
+    <p>BE THE VOICE <img src="wwf-banner.jpg"></p>
+    
+   
+  </main>
+
+</body>
+
+</html>
+
+<!--There are going to be some code in this demo that we haven't discussed yet. These are css positioning and margin rules. This simple demo should show you the potential of CSS in designing your site. Here's the rough order steps to follow along:
+
+1. Open the background.jpg image in Photoshop. Check out the file size and compress to about 200k so it loads quickly. Background images need to be large enough to cover the larger browser windows. As you view in Photoshop, also sample 3 or 4 color areas using the eyedropper.  When you sample a color, it becomes the foreground color in the tool palette. click on it to open the color picker and copy the hexidecimal color. This will give you some options for text colors as you complete the layout. Save your compressed image.
+
+2. I've given you the basic html stucture. Now place your background.jpg as an img src in the body. 
+ <img src=background.jpg alt=elephant on African plain id=full-screen-background-image>
+ 
+ View in your browser and you'll see that the image is huge...that's OK but it's way too big for most browser windows and we don't want to force our viewers to change window sizes. The object of a full screen background is to code with css so that it fits the starting browser window size.
+ 
+ 3. Now we'll add the CSS to set-up the body. We're zeroing out margins and padding to fit precisely.
+ 
+  body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+4. Now we'll add some additional code to target the background image. Note that the image has an ID which is symbolized in CSS with the # Note the z index and postioning: fixed; rules...more to come on these. Once you apply this code you'll see that the image fills a typical browser window on opening. This is our goal! The min-height and min-width set size parameters if the window is scaled down or up after initial opening.
+
+#full-screen-background-image {
+  position: fixed;
+  z-index: 0;
+  min-height: 100%;
+  min-width: 800px;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+5. Now we'll add some big bold text for our WWF Elephant site.  Go to google fonts and look for a heavy font style. I will use the following but you can use one of your choice.
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+
+You'll see that I've put  inside the <main><p>BE THE VOICE</p></main> tag. We'll target the main container with the following code to establish its position on the page.
+ 
+main {
+  position: relative;
+  width: 800px;
+  min-height: 400px;
+  margin: 100px auto;
+ 
+}
+
+6. Now set the type style and weight and font-size.  Big and bold will compliment the big background. Adjust as needed...you know how to do this!
+
+p{font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 72px;}
+
+7. Finally we'll add the WWF banner below the type by placing an img src=wwf-banner.jpg inside the <p> tag. This will keep it just under the line of type. Try adjusting the width of the image to fit under your line of type by setting a width=value in pixels. The html code will look like this but your width will be different.
+
+<p>BE THE VOICE <img src=wwf-banner.jpg width="475px"></p>
+
+	-->

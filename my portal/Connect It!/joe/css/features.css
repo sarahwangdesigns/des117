@@ -1,0 +1,78 @@
+	* {
+		margin: 0;
+		padding: 0;
+		}
+    	
+	body {
+		position: relative;
+		margin: auto;
+		width: 1200px;
+		height: 1500px;
+		background-color: #f8f8f6;
+		}
+	
+	#joebanner {
+		position: absolute;
+    	top: 15px;
+    	left: 315px;
+		}
+		
+	#anatomytwo {
+		position:absolute;
+		top: 300px;
+		left: 375px;
+		}
+	
+	#appone {
+		position:absolute;
+		top: 1050px;
+		left: 375px;
+		}	
+	
+	#nav {
+		position: absolute;
+		top: 180px;
+		left: 270px;
+		width: 700px;
+		}
+		
+	#nav li {
+		list-style-type: none;
+		width: 120px;
+		height: 25px;
+		background-color: white;
+		font-size: 14px;
+		margin-left: 10px;
+		margin-right: 10px;
+		padding-top: 8px;
+		float: left;
+		text-align: center;
+		}
+
+	 main {
+    	text-align: center;
+    	}
+	
+	body {
+		color: black;
+		font-family: century gothic;
+		font-size: 14px;
+		letter-spacing: 2px;
+		}
+	
+	a:link {
+		font-family: verdana;
+		font-size: 14px;
+		color: black;
+		text-decoration: none;
+		}
+	
+	a:visited {
+		color: grey;
+		}
+
+	a:hover {
+		color: black;
+		}
+
+	

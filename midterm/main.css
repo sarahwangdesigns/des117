@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'new_yorkerregular';
+    src: url('fonts/newyorkr-webfont.eot');
+    src: url('fonts/newyorkr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/newyorkr-webfont.woff2') format('woff2'),
+         url('fonts/newyorkr-webfont.woff') format('woff'),
+         url('fonts/newyorkr-webfont.ttf') format('truetype'),
+         url('fonts/newyorkr-webfont.svg#new_yorkerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+main {
+	margin 0;
+	padding: 0;
+	}
+
+body {
+	position: relative;
+	width: 1200px;
+	height 1000px;
+	font-family: 'new_yorkerregular';
+	}
+	
+#banner {
+	float: left;
+	margin-left: 525px;
+	}
+	
+#jeb {
+	float: left;
+	margin-left: 557px;
+	}
+	
+#secone {
+	position: absolute;
+	left: 1100px;
+	top: 150px;
+	width: 250px;
+	text-align: center;
+	}
+	
+.bushname {
+	
+	}
+
+#rubio {
+	float: left;
+	margin-left: 590px;
+	padding-top: 40px;
+	}
+	
+#sectwo {
+	position: absolute;
+	left: 550px;
+	top: 560px;
+	width: 250px;
+	text-align: center;
+	}
+	
+#madlib {
+	float: left;
+	margin-left: 590px;
+	margin-top: 200px;
+	}
+
+#secthree {
+	position: absolute;
+	left: 545px;
+	top: 890px;
+	width: 250px;
+	text-align: center;
+	}
+	
+.critic {
+	color:red;
+	font-family: 'Montserrat', sans-serif;
+		}
+		
+	
+#the {
+	position: absolute;
+	top: 470px;
+	left: 1050px;
+	text-decoration: underline;
+	font-size: 20px;	
+	}
+
+#latest {
+	position: absolute;
+	top: 465px;
+	left: 1100px;
+	font-size: 36px;
+	}	
+
+#bridge {
+	position: absolute;
+	top: 530px;
+	left: 890px;
+	}
+	
+#secfour {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	position: absolute;
+	width: 450px;
+	text-align: left;
+	float: left;
+	margin-left: 1000px;
+	margin-top: 515px;
+	}
+	
+	
+#screen {
+	position: absolute;
+	top: 640px;
+	left: 890px;
+	}
+
+#secfive {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	position: absolute;
+	width: 450px;
+	text-align: left;
+	float: left;
+	margin-left: 1000px;
+	margin-top: 625px;
+	}
+	
+.daily {
+	color: red;
+	font-family: 'Montserrat', sans-serif;
+	}
+
+#yahoo {
+	position: absolute;
+	top: 750px;
+	left: 890px;
+	}
+	
+#secsix {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	position: absolute;
+	width: 450px;
+	text-align: left;
+	float: left;
+	margin-left: 1000px;
+	margin-top: 735px;
+	}
+	
+	
+#seceight {
+	position: absolute;
+	width: 500px;
+	font-size: 20px;
+	top: 970px;
+	left: 1100px;
+	}
+	
+#seclast {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	position: absolute;
+	top: 1000px;
+	left: 925px;
+	width: 500px;
+	}

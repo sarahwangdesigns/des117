@@ -1,0 +1,34 @@
+body {
+  font-family: Verdana, sans-serif;
+  color: #52000E; background-color: #52000E;
+}
+
+figure {display: block; width: 260px; height:200px; background-image: url(../images/phantom.jpg); background-repeat:no-repeat;
+margin: 0 auto;}
+h1 {color: white; font-size: 48px;
+  margin-top: 0.75em;
+  text-align: center;
+ 
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  margin-bottom: 8px;
+  background-color: gray;
+  background-repeat: no-repeat;
+  padding: 5px 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+embed {width: 100%;
+}

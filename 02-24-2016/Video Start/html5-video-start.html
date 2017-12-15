@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Video Demo</title>
+
+<style>
+
+</style>
+</head>
+<body>
+<h2>HTML5 Video Demo</h2>
+<p>Video playback is one of the most important new features in HTML5. It allows us to play video from the built-in player rather than depend on a third party player like Quicktime, Flash or Windows Movie Player.</p>
+<p>The control attribute adds video controls, like play, pause, and volume. You can also include autoplay and loop or a combination of commands.
+
+It is a good idea to always include width and height attributes. If height and width are set, the space required for the video is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the video, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the video loads).
+
+<p>You should also insert text content between the video and /video tags for browsers that do not support the video element.</p>
+
+<p>The video element allows multiple source elements. source elements can link to different video files. The browser will use the first recognized format. Keep in mind that browsers are not fully compliant with one video file type so best to use at least </p>
+</p>
+<h3>Here's a video file that's a local file</h3>
+
+<!--copy and local video code here-->
+
+<video width=320 height=240 controls>
+      <source src=movie.mp4 type=video/mp4>
+      <source src=movie.ogg type=video/ogg>
+  Your browser does not support the video tag.
+</video>
+
+<h3>Here's a video file that's a url from a remote server</h3>        
+       
+             
+<!--copy and paste external video code here-->
+
+<video width="618" height="347" controls preload>
+        <source src="http://media.html5media.info/video.mp4" media="only 			           		screen and (min-device-width: 960px)"></source>
+        <source src="http://media.html5media.info/video.ogv"></source>
+</video>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rVlhMGQgDkY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+              
+  </body>
+                
+ <!--Just copy and paste this local video code (it's in the demo directory) to see how it works.
+ 
+ <video width=320 height=240 controls>
+      <source src=movie.mp4 type=video/mp4>
+      <source src=movie.ogg type=video/ogg>
+  Your browser does not support the video tag.
+</video>
+
+This is a very short video-try making it loop and autoplay. Is there a combination that works best?
+
+Here's how you would insert a video from a remote server. Just paste this code in and see how it works. The preload attribute makes the file upload before it starts playing so it doesn't hesitate or stop during playback.
+
+<video width="618" height="347" controls preload>
+        <source src="http://media.html5media.info/video.mp4" media="only 			           		screen and (min-device-width: 960px)"></source>
+        <source src="http://media.html5media.info/video.ogv"></source>
+</video>
+             
+Your Assignment/Challenge:
+
+Now open the Phantom start file and follow the instrucitons. You will be creating a desktop and phone version of this site. It will have a video clip embedded from YouTube and an audio sound effect file. Have Fun!
+-->

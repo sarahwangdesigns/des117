@@ -1,0 +1,165 @@
+	* {
+		margin: 0;
+		padding: 0;
+		}
+	
+	body {
+		width: 1200px;
+		height: 1000px;
+		text-align: center;
+		background-image: url('images/red-vespa.jpg');
+		background-size: cover;
+   		background-repeat: no-repeat;
+    	}
+    	
+    main {
+    	width: 600px;
+    	height: 800px;
+    	}
+    	
+    #redvespabanner {
+    	position: absolute;
+    	top: 25px;
+    	left: 95px;
+    	}
+    	
+	#nav {
+		position: absolute;
+		top: 180px;
+		left: 60px;
+		width: 600px;
+		}
+		
+		
+	#nav li {
+		list-style-type: none;
+		width: 120px;
+		height: 25px;
+		background-color: white;
+		font-size: 14px;
+		margin-left: 10px;
+		margin-right: 10px;
+		padding-top: 8px;
+		float: left;
+		text-align: center;
+		}
+
+	body {
+		color: black;
+		font-family: georgia;
+		font-size: 14px;
+		letter-spacing: 2px;
+		}
+	
+	a:link {
+		font-family: verdana;
+		font-size: 14px;
+		color: black;
+		text-decoration: none;
+		}
+	
+	a:hover {
+		color: lightgrey;
+		}
+	
+	a:visited {
+		color: lightgrey;
+		}
+
+	
+	/*place image and text*/	
+	#button_one {
+		position: absolute;
+		top: 260px;
+		left: 65px;
+		}
+
+	#button_one p{
+		position: absolute;
+		top: 7px;
+		left: 0px;
+		display: none;
+		}
+		
+	#button_one:hover p{
+		display: block;
+		font-family: verdana;
+		font-size: 12px;
+		color: white;
+		line-height: 125%;
+		text-align: left;
+		padding-left: 15px;
+		width: 370px;
+		}
+		
+	#button_one p{
+		background: #e83c62;
+		padding: 10px;
+		margin-left: 150px;
+		border-radius: 10px;
+		}
+
+	#button_two {
+		position: absolute;
+		top: 410px;
+		left: 65px;
+		}
+		
+	#button_two p{
+		position: absolute;
+		top: 7px;
+		left: 0px;
+		display: none;
+		}
+		
+	#button_two:hover p{
+		display: block;
+		font-family: verdana;
+		font-size: 12px;
+		color: white;
+		line-height: 125%;
+		text-align: left;
+		padding-left: 15px;
+		width: 370px;
+		}
+		
+	#button_two p{
+		background: #7cbdb5;
+		padding: 10px;
+		margin-left: 150px;
+		border-radius: 10px;
+		}
+			
+	#button_three {
+		position: absolute;
+		top: 560px;
+		left: 65px;
+		}
+		
+	#button_three p{
+		position: absolute;
+		top: 7px;
+		left: 0px;
+		display: none;
+		}
+		
+	#button_three:hover p{
+		display: block;
+		font-family: verdana;
+		font-size: 12px;
+		color: white;
+		line-height: 125%;
+		text-align: left;
+		padding-left: 15px;
+		width: 370px;
+		}
+		
+	#button_three p{
+		background: #f38a1d;
+		padding: 10px;
+		margin-left: 150px;
+		border-radius: 10px;
+		}
+	
+		
+	

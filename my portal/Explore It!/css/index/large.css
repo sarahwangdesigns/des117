@@ -1,0 +1,36 @@
+	* {
+		margin: 0;
+		padding: 0;
+		}
+	
+	body {
+		background-image: url('../../images/imagesfinal/bg.gif');
+    	}
+    	
+    section {
+    	position: relative;
+		width: 1200px;
+		height: 800px;
+		text-align: center;
+		margin: auto;
+		}
+    
+	p {
+		font-family: 'Arvo', serif;
+		color: white;
+		font-size: 62px;
+		padding-top: 125px;
+		margin: auto;
+		}
+		
+	#amclogo {
+		background-color: white;
+		width: 500px;
+		padding: 5px 0px 12px 0px;
+		opacity: 0.5;
+		margin: auto;
+    	}
+    	
+    #enterbutton {
+    	padding-top: 80px;
+    	}

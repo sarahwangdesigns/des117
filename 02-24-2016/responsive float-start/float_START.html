@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<title>Let's Float!</title>
+
+<style>
+<!--
+section {width: 90%; max-width: 1000px; margin-left: auto; margin-right: auto;
+	}
+#one, #two, #three {float: left; margin-right:20px; text-align: center;
+	}
+#column-one, #column-two {width: 90%; float: left; margin-left: 20px; text-align: 	justify;
+	}
+#column-two {padding-left: 10px; text-align:justify;
+	}
+.floatright {float: right; padding-left: 5px;
+	}
+	
+	@media screen and (min-width: 480px) and (max-width: 780px) {
+	#three {display:none; }
+	
+	body {background-color: lightblue;}
+	
+	}
+	
+	@media screen and (max-width: 480px) {
+	#two, #three {display:none;}
+	#column-one {display:none;}
+	.floatright {float: left; padding-right: 1em;
+	}
+	
+	}
+	
+-->
+</style>
+
+
+</head>
+
+<body>
+<section>
+<header>
+<h1> CSS FLOATS</h1>
+</header>
+
+<figure id=one> 
+<img src=images/emergency_float.jpg width=250 height=250>
+<p>Emergency Float</p> 
+</figure>
+<figure id=two> 
+<img src=images/fishing_float.jpg width=250 height=250>
+<p>Fishing Float</p> 
+</figure>
+<figure id=three> 
+<img src=images/bed_float.jpg width=250 height=250>
+<p>Floating Bed</p> 
+</figure>
+
+
+<article id=column-one>
+<h3> Float Theory</h3>
+<p><em>Smashing Magazine May 2012</em><br />
+  A floated box is positioned within the normal flow, then taken out of the flow and shifted to the left or right as far as possible. The concept of floats is probably one of the most unintuitive concepts in CSS. Floats are often misunderstood and blamed for floating all the context around it, causing readability and usability problems. However, the reason for these problems isn’t the theory itself, but the way the theory is interpreted - by designers and browsers.</p>
+<p>Still, if you take a closer look at the float theory, you’ll find out that it isn’t that complex as it appears to be. Most related problems are caused by the older versions of (take a guess) Internet Explorer. If you know the bugs, you can control the way information is presented in a more sophisticated, profound way.</p>
+<p>Let’s  clarify some usual misunderstandings, which always appear once floats are being used. Here are the most important things you should keep in mind developing css-based layouts with floats.</p>
+</article>
+<article id=column-two>
+<h3> Float Techniques</h3>
+<img class=floatright src=images/little_floats.jpg>
+ 
+<p>When you float an element it becomes a block box. This box can then be shifted to the left or right on the current line. The markup options are float: left, float: right or float: none.</p>
+  <p>Content may flow along the side of a float.  When a box is taken out of normal flow, all content that is still within normal flow will ignore it completely and not make space for it.<br />
+  </p>
+  <p> You should always set a width on floated items (except if applied directly to an image - which has implicit width). If no width is set, the results can be unpredictable. For one, the box being floated should have a width defined for it, either explicitly or implicitly. Otherwise, it will fill its containing block horizontally, just like non-floated content, leaving no room for other content to flow around it. Second, unlike boxes in the normal flow, the vertical margins of a floated box are not collapsed with the margins of boxes either above or below it. Finally, a floated box can overlap block-level boxes adjacent to it in the normal flow.</p>
+  </article>
+</section>
+
+</body>
+</html>

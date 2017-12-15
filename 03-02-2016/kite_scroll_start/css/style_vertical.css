@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#000;
+    color: white;
+    font-family:Georgia;
+    font-size: 34px;
+    font-style: italic;
+    letter-spacing:2px;
+}
+
+a   {font-family: verdana;
+    font-size: 18px;
+    color: lightblue;
+    text-decoration:none;
+    
+}
+a:hover{ text-decoration:underline;
+}
+  
+nav {position: fixed; 
+}
+
+nav li {float: left;
+margin-left: 30px;
+list-style-type: none;
+height:44px; width:30px;
+background-image: url("images/small_kite.gif");
+}
+   article {
+    height:900px;
+    width:1200px;
+    padding-top: 30px;
+}
+  
+article h2{
+   margin:100px 0px 30px 50px; text-align: center;
+   
+}
+article p{
+    margin:20px 0px 0px 50px;
+    width:600px;
+}
+
+#kite img {
+	position: fixed;
+	bottom: 30px;
+	left: 30px;
+	width: 70%;
+	}
+
+#scroll_up img{
+	position: fixed;
+	bottom: 50px;
+	right: 30px;
+	}
+	
+#section2 {
+	background-image: url(../images/tree.gif);
+	background-repeat: no-repeat;
+	background-position: 10% 10%;
+	}

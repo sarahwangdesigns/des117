@@ -1,0 +1,91 @@
+	#nav {
+		position: absolute;
+		top: 145px;
+		left: 5px;
+		}
+		
+	#nav li {
+		list-style-type: none;
+		width: 120px;
+		height: 10px;
+		background-color: orange;
+		font-size: 14px;
+		padding: .3em .75em 1em .75em;
+		margin-bottom: 3px;
+		}
+	
+	#nav a:link {
+		text-decoration: none;
+		font-family: verdana;
+		color: black;
+		}
+		
+	#nav a:hover {
+		color: white;
+		}
+		
+	#button_one a:link {
+		display: block;
+		width: 100px;
+		height: 100px;
+		background-image: url(images/orange_circle.png);
+		}
+	
+	#button_one {
+		position: absolute;
+		top: 240px;
+		left: 205px;
+		}
+		
+	#button_one a:hover {
+		background-image: url(images/hotspot.png);
+		}
+		
+	#button_two {
+		position: absolute;
+		top: 30px;
+		left: 400px;
+		}
+		
+	#button_two p{
+		position: absolute;
+		top: 15px;
+		left: 0px;
+		display: none;
+		}
+		
+	#button_two:hover p{
+		display: block;
+		font-family: verdana;
+		font-size: 14px;
+		color: white;
+		line-height: 90%;
+		text-align: center;
+		padding-left: 200px;
+		}
+		
+	main {
+		position: relative;
+		width: 800px;
+		height: 479px;
+		top: 150px;
+		margin: auto;
+		}
+		
+	body {
+		background: url(images/glacier.jpg) center center fixed;
+		}
+		
+	.on_page {
+		font-family: verdana;
+		font-size: 14px;
+		color: red;
+		}
+		
+	
+		
+		
+		
+		
+		
+		

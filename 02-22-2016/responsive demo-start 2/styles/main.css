@@ -1,0 +1,97 @@
+
+* { margin: 0; padding: 0; }
+
+/* General style of text and margins*/
+
+body { background:#ffffff; font-size: 13px; font-family: Arial, helvetica, sans-serif;}
+
+ol, ul { list-style: none; margin: 0 0 10 0;}
+
+ul li { margin: 0; padding: 0;}
+
+h1 { margin-bottom: 10px; color: #111111;}	
+
+a, img { outline: none; border:none; color: #000; font-weight: bold;}
+
+p { margin: 0 0 10px; line-height: 1.4em; font-size: 1.2em;}
+
+
+
+aside { font-style: italic; font-size: 0.9em;}
+
+
+	
+/* Structure  we use % on column sizes to fill wrapper note total of main aside and margin is 100% */
+#wrapper {
+	width: 96%;	
+	max-width: 920px;
+	margin: auto;
+	padding: 2%;
+	} 
+
+#main {
+		width: 60%;
+		margin-right: 5%;
+		float: left;
+		}		
+		
+aside {
+		width: 35%;
+		float: right;
+		}
+
+/* Logo H1  this is the air museum image*/
+header h1 {
+	height: 70px;
+	width:288px;
+	float: left;
+	display: block;
+	margin-left: 25px;
+	background: url(../images/air-museum.gif) 0 0 no-repeat;
+		}
+		
+/* Nav this moves it the right edge and makes horizntal list*/
+header nav {
+	float: right;
+	margin-top: 40px; 
+	}
+	
+	header nav li {
+		display: inline;
+		margin-left: 15px;
+		}
+
+/* Banner */			
+#banner {
+	float: left;
+	margin-bottom: 15px;
+	width: 100%;
+	}
+
+	#banner img {
+		width: 100%;
+		}
+
+/* this is a Media Query- If you add this to your style sheet it will detect a 480px phone screen and restyle the navigation to a more user friendly scale and look*/
+
+
+@media screen and (max-width: 480px) {
+header nav, #main, aside { float: left;
+clear: left; margin: 0 0 10px; width: 100%;
+}
+header nav li { margin: 0;
+background: #efefef; display: block; margin-bottom: 3px; }
+header nav a { display: block;
+}
+
+#main p {
+	color:red;
+	}
+
+aside {
+display:none;
+}
+
+
+
+padding: 10px; text-align: center; }

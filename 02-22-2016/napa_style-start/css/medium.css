@@ -1,0 +1,85 @@
+body {
+	position: relative;
+	width: 1200px;
+	height: 800px;
+	background-color: white;
+	font-family: verdana;
+	margin: auto;
+	}
+	
+header {
+	background-image: url("../images/napastyle_logo_medium.jpg");
+	width: 676px;
+	height: 87px;
+	}
+	
+nav {
+	position: fixed;
+	width: 220px;
+	top: 150px;
+	}
+	
+li {
+	list-style-type: none;
+	}	
+	
+a:link {
+	text-decoration: none;
+	color: black;
+	}	
+	
+a:visited {
+	color: brown;
+	}
+
+a:hover {
+	color: white
+	}
+	
+h2 {
+	color: white;
+	}	
+	
+#oven {
+	position: relative;
+	text-align: center
+	}
+
+#description { 
+	font-family: Verdana; 
+	font-size: 1em; 
+	color: #000;
+	background: rgba(255, 255, 255, 0.2);
+	width: 300px; 
+	position: absolute;  
+	left: 410px; 
+	top: 125px; 	
+	padding: 1em; 	
+	border-radius: 15px;
+	}
+	
+section {
+	position: absolute;
+	left: 250px;
+	}
+	
+#heading {
+	width: 350px;
+	}	
+	
+#pictures {
+	width: 300px;
+	}
+	
+#container { 
+	width: 1200px;
+	height: 1200px;
+	margin-left: auto; 	
+	margin-right: auto; 	
+	position: relative; 	
+	border: thick solid #660; 
+	background-color:white;	
+	}
+	
+
+	
